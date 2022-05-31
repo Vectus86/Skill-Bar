@@ -11,8 +11,11 @@ html, body {
     display: grid;
     height: 100%;
     place-items: center;
-    background: url(./img/30829.webp);
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./img/30829.webp);
     background-size: cover;
+    background-position: center;
 }
 h3 {
     color: white;
